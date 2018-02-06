@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * 
- * @author vic
+ * @author zzw
  * @desc User Service
  */
 public interface IDataTypeService {

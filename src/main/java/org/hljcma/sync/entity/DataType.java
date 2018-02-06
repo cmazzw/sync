@@ -2,7 +2,7 @@ package org.hljcma.sync.entity;
 
 /**
  * 
- * @author vic
+ * @author zzw
  * @desc entity for table(user)
  * 
  */
