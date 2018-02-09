@@ -20,6 +20,7 @@ public class SyncController {
 
     @RequestMapping("/sync")
     public int sync(){
+        redisService.flushdb();
         List<DataType> datatypes = dataTypeService.getAll();
         int suceflag=1;
         for(DataType datatype:datatypes){
